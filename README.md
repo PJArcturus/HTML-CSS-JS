@@ -27,10 +27,9 @@
 
 ## Naming 표기법
 
-- Naming 하는 경우
-    - HTML/CSS: id, class
-    - JS: 변수, 함수
-    - 파일, 폴더
+- 표기법의 종류
+    - section_content: Snake case
+    - section-content: kebab case
+    - sectionContent: camel case
+    - SectionContent: pascal case
 
-- 표기법의 의미
-    - 2단어 이상의 단어 갯수로 
