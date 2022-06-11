@@ -45,7 +45,7 @@ e.g.
 - title: 웹사이트 제목
 
 ### Body - 웹사이트 콘텐츠
-
+- 웹사이트에 contents, structure etc. 표시하는 모든 Tag
 
 ## HTML Contents
 
