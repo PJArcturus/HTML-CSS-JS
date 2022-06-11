@@ -24,4 +24,13 @@
     - Back-End Develop: 사용자가 보지 못하는 영역에서 데이터처리
         - Web Back-End Develop: 서버에서 처리되는 언어를 사용해서 개발
         - 언어: Java, PHP, Python, Nodejs
-        
+
+## Naming 표기법
+
+- Naming 하는 경우
+    - HTML/CSS: id, class
+    - JS: 변수, 함수
+    - 파일, 폴더
+
+- 표기법의 의미
+    - 2단어 이상의 단어 갯수로 
