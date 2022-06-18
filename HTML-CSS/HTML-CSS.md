@@ -24,6 +24,16 @@ e.g.
 
 <tag ...>: Empty Element
 ```
+
+- HTML 속성(Attributes)
+    - HTML Element를 표시할 때 필요한 추가 정보 입력
+    - name="value"
+```
+<a href="https://www.naver.com/">네이버</a>
+
+<img scr="photo.png">
+```
+
 ## HTML Basic Structure
 ```
 <!DOCTYPE html>
@@ -52,6 +62,8 @@ e.g.
 ### Text
 
 #### Heading(제목)
+- h(heading): 제목 테그
+- 1 ~ 6 단계로 표시됨
 
 #### Paragraph(단락)
 
