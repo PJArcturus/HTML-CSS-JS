@@ -62,10 +62,17 @@ e.g.
 ### Text
 
 #### Heading(제목)
-- h(heading): 제목 테그
+- h(Heading): 제목 태그
 - 1 ~ 6 단계로 표시됨
 
 #### Paragraph(단락)
+- p(Paragraphs): 단락 태그
+- 강제 줄 바꿈, 강제 공백은 인식이 되지 않고 공벡 한 칸으로만 인식
+    - Line break(강제 줄 바꿈): br 태그
+    - Space(강제 공백): &nbsp;(강제 공백 엔터티(Entity))
+
+- hr(Horizontal rule): 수평선 긋기
+    -단락을 선의 형태로 구분
 
 #### List(목록)
 
