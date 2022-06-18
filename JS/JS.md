@@ -32,11 +32,56 @@
 ## JS 문법
 
 ### 데이터 / 변수 / 연산자
+- 데이터
+    - 숫자
+    - 문자
+```
+숫자: 0, 1, 2, 3, 4, 5 ...
+문자: 가, 나, 다..., a, b, c...
+```
+- 데이터 타입(종류)
+    - 숫자: 정수, 실수 ... 
+    - 문자
+        - 코드상에서 문자는 따옴표로 묶임
+        - 낱개 글자, 묶음 글자...
+```
+1 + 1 = 2
+
+'a' + 1 = a1
+
+'1' + 1 = 11
+```
+
+★★ JavaScript는 데이터 타입을 업격하게 구분하지 않음 ★★ 
+
+- 변수(Variable)
+    - 데이터를 저장하는 공간
+    - 변수는 선언(정의) 한 이후에 사용
+    - 변수 선언 예약어(Keyword)
+        - var(ES5)
+        - let(ES6)
+        - const(ES6)
+
+```
+JAVA
+정수 변수 선언: int number1;
+실수 변수 선언: float number2;
+문자 변수 선언: char text;
+
+ES5 / ES6
+정수 변수 선언: var number1; | let number1;  | const number1;
+실수 변수 선언: var number2; | let number2;  | const number2;
+문자 변수 선언: var text;    | let text;     | const text;
+```
+
+- 연산자
 
 ### 명령문
 
 ### 함수
 
 ### 배열 / 객체 / Class
+
+### 추가 문법
 
 ## JS 활용
