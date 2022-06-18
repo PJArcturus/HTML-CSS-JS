@@ -75,6 +75,11 @@ e.g.
     -단락을 선의 형태로 구분
 
 #### List(목록)
+- ul(Unordered List): 순서없는 목록
+- ol(Ordered List): 순서있는 목록
+- li(List Item): 목록 항목
+
+**Nested HTML Lists 가장 중요한 목록 중 하나** 
 
 #### Table(표)
 
