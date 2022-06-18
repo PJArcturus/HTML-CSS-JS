@@ -79,7 +79,9 @@ e.g.
 - ol(Ordered List): 순서있는 목록
 - li(List Item): 목록 항목
 
-★★Nested HTML Lists 가장 중요한 목록 중 하나★★
+★★ Nested HTML Lists 가장 중요한 목록 중 하나 ★★
+- 포함관계(Nested Structure)
+
 
 #### Table(표)
 
