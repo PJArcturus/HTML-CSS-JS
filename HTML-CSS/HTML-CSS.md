@@ -125,6 +125,9 @@ e.g.
 - a(Anchor):
 - 기본 속성: href(Hypertext Reference) - 연결할 위치(페이지)
 
+- 링크 이동 위치
+    - 외부링크
+    - 내부링크: Bookmark
 
 ### Media
 #### Image(이미지)
