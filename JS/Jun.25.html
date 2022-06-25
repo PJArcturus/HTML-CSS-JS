@@ -7,11 +7,11 @@
     <title>조건문 / 분기문</title>
 </head>
 <body>
-    <h1>조건문 / 분기문</h1>
+    <!-- <h1>조건문 / 분기문</h1>
     <script>
         // 평균이 90 이상이면 수, 80 이상이면 9 70 이상이면 미, 그외는 재시험
         let avg = 60;
-        
+
         if(avg>=90){
             console.log("수");
         } else if(avg>=80){
@@ -22,6 +22,27 @@
             console.log("재시험");
         }
 
+    </script> -->
+    
+    <h1>반복문</h1>
+    <script>
+        for(let i=0; i<10; i++){
+            console.log("Hello World");
+        }
+
+
+        let sum = 0;
+        for(let i=0; i<10; i++){
+            sum = sum +i;
+            console.log(sum);
+        }
+        console.log(sum);
+
+
+        // 구구단 2단
+        for(let i=1; i<=9; i++){
+            console.log("2x" + i + " = "+2*i)
+        }
     </script>
 </body>
 </html>
