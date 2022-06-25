@@ -122,6 +122,9 @@ e.g.
 
 #### Hyper Link(하이퍼링크)
 
+- a(Anchor):
+- 기본 속성: href(Hypertext Reference) - 연결할 위치(페이지)
+
 
 ### Media
 #### Image(이미지)
