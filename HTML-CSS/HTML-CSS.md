@@ -107,6 +107,12 @@ e.g.
 (5) 기준 요소 | 자손 요소 | 자식 요소
 
 #### Table(표)
+- table
+- thead(Table Head): 표 상단 - 제목
+- tbody(Table Body): 콘텐츠, 데이터
+- tr(Table row): 행
+- th(Table header): 제목
+- td(Table data): 열
 
 
 #### Hyper Link(하이퍼링크)
