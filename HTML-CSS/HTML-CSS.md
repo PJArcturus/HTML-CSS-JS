@@ -131,6 +131,17 @@ e.g.
 
 ### Media
 #### Image(이미지)
+
+- img(Image)
+    - 빈 요소
+- 기본 속성
+    - src(source): 이미지 파일 이름, 위치
+    - alt(alternate text): 대체 텍스트 - 이미지가 화면에 표시되지 않을 때, screen reader와 관련
+
+```
+<img src="photo.png" alt="잔나-서포터">
+```
+
 #### Video(영상)
 
 
