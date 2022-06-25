@@ -106,6 +106,11 @@ e.g.
 (4) 부모 요소 | 자손 요소 | 기준 요소
 (5) 기준 요소 | 자손 요소 | 자식 요소
 
+- Description List(설명 목록)
+    - dl(Description List) 
+    - dt(Description Title): 항목
+    - dd(Description Data): 항목에 대한 설명
+
 #### Table(표)
 - table
 - thead(Table Head): 표 상단 - 제목
