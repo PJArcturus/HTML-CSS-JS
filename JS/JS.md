@@ -121,6 +121,52 @@ a -= 1 => a--
 
 ### 명령문
 
+- 프로그래밍 언어의 실행 흐름을 변경
+- 조건문 / 분기문
+    - if: 조건/상황에 대한 다른 결정에 대해 각각 다른 실행방식을 선택
+        - if
+        - else if
+        - else
+```
+if(결과값이 bool 데이터인 식){
+    결과 값이 참일 때 실행코드
+}
+
+
+if(bool1){
+    bool1이 참일 때 실행코드
+} else if(bool2){
+    bool2가 참일 때 실행코드
+}
+
+
+if(bool) {
+    bool이 참일 때 실행코드
+} else {
+    bool이 거짓 일 때 실행코드
+}
+
+
+if(bool1){
+    bool1이 참일 때 실행코드
+} else if(bool2){
+    bool2이 참일 때 실행코드
+} else {
+    bool1, bool2 모두 거짓일 때 실행코드
+}
+```
+```
+if(a>10){}
+if(true){}
+if(a+1)(): 값이 숫자 - 0: false, 정수: true
+if(1){}
+```
+    - switch: 
+
+- 반복문
+    - for
+    - while
+
 ### 함수
 
 ### 배열 / 객체 / Class
