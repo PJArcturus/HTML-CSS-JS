@@ -177,5 +177,67 @@ e.g.
 
 ### Layout
 
+- Block & Inline
+    - Block 요소
+        - 태그가 브라우저에 표시될 때 각 태그 영역이 새 줄에서 표시
+        - 태그 영역이 부모요소에 전체 채워짐
+    - Inline 요소
+        - 태그가 브라우저에 표시될 때 각 태그 영역이 같은 줄에서 표시
+        - 태그 영여이 콘텐츠에 맞춰짐
+
+### container element
+
+- div(Division)
+    - block
+- span
+    - inline
+
+## 경로 지정 방식
+
+- 파일의 위치, 인터넷 주소(URL)
+- 상대 경로
+    - 리소스 파일을 사용하는 HTML파일 기준
+    - html 파일 위치에 따라 주소(URL) 변경
+    - root(/) 폴더를 기준으로 주소 적용 => root 상대 경로
+```
+root(/) - [html1] - home.html
+        - [html2] - [about] - about.html
+        - [images] - photo.png
+
+1) home.html -> photo.png
+-  ../images/photo.png
+-  /images/photo.png
+
+2) about.html -> photo.png
+- ../../images/photo.png
+- /images/photo.png
+```
+
+- 절대 경로
+    - 이미지를 표시하는 HTML 페이지가 기준이 아니고, 해당 서버가 기준
+    - 서버부터 주소(URL)를 사용하기 때문에 변동이 없음.
+
+```
+root(/) - [html1] - home.html
+        - [html2] - [about] - about.html
+        - [images] - photo.png
+
+1) home.html
+- www.image.com/images/photo.png
+
+2) about.html -> photo.png
+
+```
+
+## 강조 태그, 기타 태그
+
+- 텍스트 특정 부분 강조
+    - strong: 강한 강조
+    - em(emphasise): 일반 강조
+    - mark: html5 버전, block 강조
+
+- 텍스트를 표현할 때 부족한 태그를 보완하는 태그
+    - i(Italic)
+    - b(Bold)
 
 # CSS
