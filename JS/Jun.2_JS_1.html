@@ -49,6 +49,25 @@
         obj.type = "BMW";
         console.log(obj.type);
         
+        // 클래스 선언
+        // Property
+        class myClass {
+            constructor(type, model, colour) {
+                this.type = type;
+                this.model = model;
+                this.colour = colour;
+            }
+
+            print(){
+                console.log(this.type, this.model, this.colour);
+            }
+        }
+
+        // 객체 데이터 생성
+        let carObj = new myClass("Ferrari", "SF90", "Blue");
+        console.log(carObj);
+
+        carObj.print();
     </script>
 </body>
 </html>
