@@ -162,6 +162,19 @@ e.g.
 
 ### Semantic
 
+- header
+    - logo, login ...
+- nav(Navigation)
+    - menu
+- section
+    - 본문 영역
+- article
+    - 본문 영역
+- aside
+    - 본문 영역, 부수적인 콘텐츠
+- footer
+    - 연락처, 주소, 회사 이름 ...
+
 ### Layout
 
 
