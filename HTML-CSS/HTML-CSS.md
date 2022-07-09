@@ -241,3 +241,10 @@ root(/) - [html1] - home.html
     - b(Bold)
 
 # CSS
+
+- Contents styling
+    - text styling
+    - media styling
+
+- Layout(structure styling)
+    - 가로배치(Flexbox)
