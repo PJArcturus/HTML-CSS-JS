@@ -270,3 +270,46 @@ h1 {
         - tag/element 이름 사용
         - class 이름 사용
         - id 이름 사용
+
+```
+<a href="www.google.com" class="google">Google</a>
+<a href="www.apple.com" id="apple">Apple</a>
+
+/* a 태그 2개 모두 red 색상 적용 */
+a {
+    color: red;
+}
+
+
+/* a 태그 각각 다른 색상을 적용 */
+
+요소 앞에 . 을 붙이면 class로 인식
+.google {
+    color: blue;
+}
+
+요소 앞에 # 을 붙이면 id 값으로 인식
+#apple {
+    color: green;
+}
+```
+
+### id, class 이름의 특징
+
+- id
+    - 같은 HTML 페이지에서 유일(고유) 해야 한다.
+        - 프로그래밍 언어의 변수와 연결 가능성이 있기 때문
+    - HTML 요소에 여러개의 id 이름 사용 불가
+
+- class
+    - 같은 HTML 페이지에서 여러변 사용 가능하다.
+    - HTML 요소에 여러개의 class 이름 사용 가능
+
+```
+<p class="paragraph">단락1</p>  <o>
+<p class="paragraph">단락2</p>  <o>
+
+<p id="contents">단락3</p>  (o)
+<p id="contents">단락4</p>  (x)
+```
+
