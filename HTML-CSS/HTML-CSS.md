@@ -248,3 +248,25 @@ root(/) - [html1] - home.html
 
 - Layout(structure styling)
     - 가로배치(Flexbox)
+
+## CSS Basic
+
+- CSS: Cascading Style Sheet
+
+```
+h1 {color: blue; font-size: 20px;}
+
+h1 {
+    color: blue;
+    font-size: 20px;
+}
+```
+
+## Selector(선택자)
+
+- 선택자로 HTML 요소를 선택
+- HTML 요소 선택 방법
+    - Simple Selector(단순 선택자)
+        - tag/element 이름 사용
+        - class 이름 사용
+        - id 이름 사용
