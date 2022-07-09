@@ -4,42 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Test</title>
-
+    <title>CSS 작성 방식</title>
+    
+    <!-- Internal CSS -->
     <style>
-        #para1 {
-            text-align: center;
-            color: coral;
-        }
-
-        .para2 {
-            color: royalblue;
-        }
-
-        p {
+        #heading {
             font-size: 30px;
+            color: mediumblue;
         }
 
-        #para3 {
-            font-style: italic;
+        h1 {
+            color: darkred;
         }
 
-        .para3 {
-            font-style: italic;
-        }
-
-        .para4 {
-            font-size: 50px;
+        .heading {
+            color: green;
         }
     </style>
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="/HTML-CSS-JS/HTML-CSS/CSS_Jul.9.css">
+
 </head>
 <body>
-    <p id="para1">Hello world</p>
-    <p class="para2 para3">Hello Jason</p>
-    <p class="para2">This is paragraph is not affected by the style.</p>
-    <p class="para2 para3 para4">This is paragraph is not affected by the style.</p>
-
-
-    <p class="gnb-list-item">회사소개</p>
+    <h1 style="text-align: center;" id="heading" class="heading">CSS 작성 방식</h1>
+    <p>단락</p>
 </body>
 </html>

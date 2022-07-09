@@ -311,5 +311,20 @@ a {
 
 <p id="contents">단락3</p>  (o)
 <p id="contents">단락4</p>  (x)
+
+
+<p class="gnb-list-item">회사소개</p>
 ```
 
+### CSS 선택자 우선순위
+
+- Cascading 규칙
+    - 동일한 대상에 여러 스타일이 적용될 때 제일 마지막에 적용된 스타일이 반영
+
+- 선택자 우선순위
+    - 선택자 종류에 따라 css 적용 우선순위가 다르게 정의
+    - cascading 규칙에 따르지 않고 css를 적용할 때 사용
+    - inline: 1000점
+    - id: 100점
+    - class: 10점
+    - tag: 1점
