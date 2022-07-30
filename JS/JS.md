@@ -326,3 +326,35 @@ document.querySelector("tag")
 document.querySelectorAll(".class")
 document.querySelectorAll("tag")
 ```
+
+
+### 이벤트
+
+- 상태(상황)의 변화
+- ~할 때: 이벤트 발생
+
+```
+마우스를 클릭 할 때, 키보드 키를 누를 때
+
+
+이벤트 흐름
+이벤트 발생 → 신호 발생 → 신호 감지 → 해당 이벤트에 대응하는 기능/동작 실행
+```
+
+- addEventListener(EventHandler): 이벤트 감지
+- 이벤트 handler 함수: 익명함수 사용
+    익명함수: 함수 이름이 없는 함수, 선언과 동시에 실행
+
+```
+function() {
+
+}
+```
+
+
+```
+dom.addEventListener("click", function(){
+    실행코드블럭
+});
+```
+
